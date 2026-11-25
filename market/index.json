@@ -18,12 +18,12 @@
       "metadata": { "category": "generation", "keywords": ["comfyui", "workflow", "generation"], "labels": [], "sortKeys": {} },
       "versions": [
         {
-          "version": "0.2.34",
-          "publishTimestamp": 1795581172,
+          "version": "0.2.35",
+          "publishTimestamp": 1795582573,
           "source": {
             "type": "git",
             "url": "https://github.com/onejkda/dsh-comfyui-console.git",
-            "commit": "537049de1e9d8fbd583d1e0c6d3ae9dea6a42595"
+            "commit": "a4c7594cf969f84fc6f29400cf0a70abc74e43f6"
           },
           "engines": { "dsh": ">=0.2.0-rc.2" }
         }
