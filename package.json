@@ -1,6 +1,6 @@
 {
   "name": "dsh-comfyui-console",
-  "version": "0.2.35",
+  "version": "0.2.36",
   "private": false,
   "type": "module",
   "description": "ComfyUI 交互控制台：侧边栏面板登记并运行工作流，填参数、传素材、看进度与产物；同时向 DSH 会话暴露一组出片工具，可被 AI 调度调用。",
