@@ -15,7 +15,7 @@
       "author": "onejkda",
       "homepage": "https://github.com/onejkda/dsh-comfyui-console",
       "repository": { "url": "https://github.com/onejkda/dsh-comfyui-console" },
-      "metadata": { "category": "", "keywords": ["comfyui", "workflow", "generation"], "labels": [], "sortKeys": {} },
+      "metadata": { "category": "generation", "keywords": ["comfyui", "workflow", "generation"], "labels": [], "sortKeys": {} },
       "versions": [
         {
           "version": "0.2.34",
