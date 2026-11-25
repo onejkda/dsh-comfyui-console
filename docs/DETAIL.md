@@ -25,22 +25,22 @@
 ### 2. AI 会话调度（可选）
 插件通过心跳把下面一组工具挂进 DSH 会话。在自己的 agent 提示词里约定调用方式后，模型可按任务直接调用。触发规则（收到图片 / 视频任务就自动调用、跑完主动汇报）属于人格提示词 / 记忆侧的约定，不在本插件内；换环境时需要在那边重新写一遍。
 
-### AI 工具清单（`comfyui_console_*`）
+### AI 工具清单（`dsh_comfyui_console_*`）
 
 | 工具 | 用途 |
 | --- | --- |
-| `comfyui_console_list` | 列出已登记工作流及各自识别出的槽位 / 提示词节点 / 秒数节点 / 画幅 / 产物类型 |
-| `comfyui_console_register` | 登记一个 API 格式 json 工作流，自动分析槽位与可改参数 |
-| `comfyui_console_unregister` | 划掉一个工作流（只删登记，不动文件） |
-| `comfyui_console_inspect` | 细看某条流的分析结果：槽位、提示词 / 秒数节点、产物节点、可改参数 |
-| `comfyui_console_run` | 按工作流出片：素材自动接槽，给秒数 / 画幅 / 像素 / 步数 / 种子 / 额外 LoRA，提交后返回 prompt_id |
-| `comfyui_console_job` | 查询单任务状态、进度与产物路径 |
-| `comfyui_console_cancel` | 取消还在排队、尚未开始的任务 |
-| `comfyui_console_interrupt` | 中断正在跑的任务 |
-| `comfyui_console_jobs` | 任务汇总：队列 + 作业 + 产物归属 |
-| `comfyui_console_watch` | 查看正在盯的作业：工作流、耗时、是否已汇报 |
-| `comfyui_console_status` | 看 ComfyUI 连通性与队列忙碌情况 |
-| `comfyui_console_loras` | 列出 models/loras 下可用 LoRA 相对路径，可按关键词筛 |
+| `dsh_comfyui_console_list` | 列出已登记工作流及各自识别出的槽位 / 提示词节点 / 秒数节点 / 画幅 / 产物类型 |
+| `dsh_comfyui_console_register` | 登记一个 API 格式 json 工作流，自动分析槽位与可改参数 |
+| `dsh_comfyui_console_unregister` | 划掉一个工作流（只删登记，不动文件） |
+| `dsh_comfyui_console_inspect` | 细看某条流的分析结果：槽位、提示词 / 秒数节点、产物节点、可改参数 |
+| `dsh_comfyui_console_run` | 按工作流出片：素材自动接槽，给秒数 / 画幅 / 像素 / 步数 / 种子 / 额外 LoRA，提交后返回 prompt_id |
+| `dsh_comfyui_console_job` | 查询单任务状态、进度与产物路径 |
+| `dsh_comfyui_console_cancel` | 取消还在排队、尚未开始的任务 |
+| `dsh_comfyui_console_interrupt` | 中断正在跑的任务 |
+| `dsh_comfyui_console_jobs` | 任务汇总：队列 + 作业 + 产物归属 |
+| `dsh_comfyui_console_watch` | 查看正在盯的作业：工作流、耗时、是否已汇报 |
+| `dsh_comfyui_console_status` | 看 ComfyUI 连通性与队列忙碌情况 |
+| `dsh_comfyui_console_loras` | 列出 models/loras 下可用 LoRA 相对路径，可按关键词筛 |
 
 ## 连接配置
 
