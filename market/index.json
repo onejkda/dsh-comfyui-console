@@ -2,7 +2,7 @@
   "format": 1,
   "title": { "en": "onejkda's DSH Plugins", "zh": "onejkda 的 DSH 插件" },
   "description": { "en": "Self-published DSH plugin index.", "zh": "自行发布的 DSH 插件索引。" },
-  "metadata": { "categories": {}, "labels": {}, "sortKeys": {} },
+  "metadata": { "categories": { "generation": { "en": "Generation", "zh": "出片生成" } }, "labels": {}, "sortKeys": {} },
   "plugins": [
     {
       "name": "dsh-comfyui-console",
