@@ -19,11 +19,11 @@
       "versions": [
         {
           "version": "0.2.35",
-          "publishTimestamp": 1795582573,
+          "publishTimestamp": 1795582968,
           "source": {
             "type": "git",
             "url": "https://github.com/onejkda/dsh-comfyui-console.git",
-            "commit": "a4c7594cf969f84fc6f29400cf0a70abc74e43f6"
+            "commit": "d268a7da4a8a8292ddb74e3f77ee8ba51b1dd09c"
           },
           "engines": { "dsh": ">=0.2.0-rc.2" }
         }
