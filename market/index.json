@@ -23,7 +23,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/onejkda/dsh-comfyui-console.git",
-            "commit": "bb67e39523ee9c2f04760dbe0881b82ee7419d72"
+            "commit": "7ef196f44b9ae23171b5fde9542520a500123754"
           },
           "engines": { "dsh": ">=0.2.0-rc.2" }
         }
