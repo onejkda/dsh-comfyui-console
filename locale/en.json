@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "ComfyUI Plugin Visual Overview",
+    "description": "A right-sidebar ComfyUI console: configure the connection and media/result directories, inspect and run workflows directly — workflow list, fillable parameters, reference slots, node structure, progress and result previews. Also exposes a set of generation tools to the DSH session for AI-driven invocation.",
+    "detail": "docs/DETAIL.md"
+  }
+}

@@ -1,0 +1,3 @@
+- insert:
+    - id: 'dsh-comfyui-console:console'
+      name: 'dsh-comfyui-console'
