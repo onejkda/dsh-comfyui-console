@@ -1,4 +1,4 @@
-# ComfyUI 控制台（comfyui-console）
+# ComfyUI 控制台（dsh-comfyui-console）
 
 侧边栏独立入口的 ComfyUI 交互控制台：把本机已接入的 ComfyUI 工作流、可填参数、参考素材槽、LoRA、任务与产物集中展示，能直接在页面上改参数、传素材、运行、看产物；同时向 DSH 会话暴露一组出片工具，可被 AI 调度调用。
 
